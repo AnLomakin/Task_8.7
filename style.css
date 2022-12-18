@@ -1,4 +1,70 @@
+/*задаём общие параметры для всей страницы: шрифт и отступы*/
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Open Sans', monospace;
+    font-size: 16px;
+    background-image: url(img/back.jpg);
+    background-size: 100vw 100vh;
+  }
+
+  /* внешний вид кнопок */
+  button{
+    font-family: 'Open Sans', monospace;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .notOnScreen{
+	display: none;
+}
+#greetings{
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+    font-size: 1.5rem;
+    padding-top: 20rem;
+}
+
+h1{
+    font-weight: bold;
+}
+
 .game-card {
     height: 100vh;
     font-family: 'Open Sans', monospace;
 }
+
+.form-group {
+    margin-inline: auto;
+    padding: 5px;
+    width: auto;
+}
+
+label {
+    padding: 0px 10px 0px 0px;
+}
+
+.btn-primary:active, .btn-info:active, .btn-info:focus, .btn-primary:focus {
+    outline: none;
+   box-shadow: none;
+   color: inherit;
+   background-color: transparent;
+}
+
+
+.btn-primary, .btn-info {
+    text-decoration: none;
+    background-color: #2f3827;
+    color:white;
+    border: none;
+    outline: none;
+}
+
+.btn-primary:hover, .btn-info:hover {
+    text-decoration: none;
+    background-color: red;
+    border: 0;
+}
+
+
